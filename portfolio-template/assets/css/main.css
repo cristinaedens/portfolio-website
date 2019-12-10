@@ -1686,7 +1686,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #d77fa1;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1697,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #e6b2c6;
 			color: #fff !important;
 		}
 
@@ -1995,27 +1995,27 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #d6e5fa;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #fce9f0;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #d6e5fa;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			background-color: #e5dfdf;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: rgb(109, 109, 109);
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2023,14 +2023,14 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #d4bbbb;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #252525;
+					background: #d6e5fa;
 				}
 
 /* Nav */
@@ -2368,14 +2368,15 @@ input, select, textarea {
 
 				.box.style1 {
 					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
+					margin-left: auto;
+					margin-right: auto;
+					height: 2vh;
 				}
 
 				.box.style2 {
 					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
 		/* Wrappers */
